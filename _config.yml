@@ -72,8 +72,7 @@ content:
           This is my first project while learning an online course called The Web Development Bootcamp in Udemy. 
           This project was created using Node.js, Express, MongoDB, and Bootstrap. Also, Passport.js was used to handle authentication. Finally, the project was deployed in Heroku.
           
-   - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  
     content:
       - layout: top-middle
         title: Spring Boot Full Stack Project with React.js
