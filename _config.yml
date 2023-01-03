@@ -30,10 +30,10 @@ linkedin_username: chaotangip
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,18 +48,20 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Chao Tang and I'm seeking a full-time job as software engineer. I have 4-year work experience on Intellectual property field but I have decided to switch my career to IT.
+  Hi, my name's Chao Tang and I'm seeking a full-time job as software engineer. 
+  I have 4-year work experience on Intellectual property field but I have decided to switch my career to software engineer.
   I am 
   
 
-  I am most skilled in: <mark>Java</mark>.
+  I am most skilled in: <mark>Java</mark> and <mark>Web Development</mark>.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Full-stack Web Develoment Project
+    - content:
+      - layout: left
+      border: weak
+        title: Full stack Web Develoment Project
         link: https://github.com/pinkpop/YAMAinJapan
         # link_text: Project Website
         
@@ -73,8 +75,9 @@ content:
           This project was created using Node.js, Express, MongoDB, and Bootstrap. Also, Passport.js was used to handle authentication. Finally, the project was deployed in Heroku.
           
   
-    content:
-      - layout: top-middle
+    - content:
+      - layout: left
+        border: weak
         title: Spring Boot Full Stack Project with React.js
         link: https://github.com/pinkpop/ImageUploadDownload
         # link_text: Project Website
