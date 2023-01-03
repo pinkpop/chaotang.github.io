@@ -104,9 +104,9 @@ content:
         quote: >
           Overseas Patent Management 
         description: | # this will include new lines to allow paragraphs
-          • Manage overseas patent application especially in Asia and Europe.
-          • Help improve overseas patent quality (translation, prosecution)
-          • Reform of the existing overseas patent application process, which can reduce 30 million JPY a year
+          - Manage overseas patent application especially in Asia and Europe.
+          - Help improve overseas patent quality (translation, prosecution)
+          - Reform of the existing overseas patent application process, which can reduce 30 million JPY a year
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
